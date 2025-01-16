@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM Simulation</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    <div class="atm-container">
+      <h2>ATM Machine</h2>
+      <h3>Current Balance: $<span id="balance">0</span></h3>
+
+      <div>
+        <input type="number" id="amount" placeholder="Enter amount" />
+      </div>
+      <br />
+      <button onclick="deposit()">Deposit</button>
+      <button onclick="withdraw()">Withdraw</button>
+      <button onclick="checkBalance()">Check Balance</button>
+
+      <h3 id="message"></h3>
+    </div>
+    <script src="./script.js"></script>
+
+
+
+    <p>Author -- Muhammad Toufique</p>
+    <p>This is feature1 Paragraph</p>
+  </body>
+</html>
+
+
